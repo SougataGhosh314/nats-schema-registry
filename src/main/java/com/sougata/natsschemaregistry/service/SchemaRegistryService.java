@@ -1,7 +1,7 @@
 package com.sougata.natsschemaregistry.service;
 
 import com.sougata.natsschemaregistry.model.SchemaBinding;
-import com.sougata.natsschemaregistry.store.InMemorySchemaStore;
+import com.sougata.natsschemaregistry.store.FileBasedSchemaStore;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +12,7 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class SchemaRegistryService {
 
-    private final InMemorySchemaStore store;
+    private final FileBasedSchemaStore store;
 
     public void registerSchema(SchemaBinding binding) {
         Optional<SchemaBinding> existing = store.findByTopic(binding.getTopic());

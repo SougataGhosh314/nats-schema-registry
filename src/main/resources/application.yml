@@ -5,6 +5,10 @@ spring:
   application:
     name: nats-schema-registry
 
+registry:
+  store:
+    file: schema-store.json
+
 management:
   endpoints:
     web:

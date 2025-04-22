@@ -1,0 +1,26 @@
+[ {
+  "topic" : "user.audit",
+  "protoMessageType" : "com.sougata.userprotos.UserEvent",
+  "descriptorSha256" : "3632172cdf132296057e95afdd0a514a5789c1bbfdaf85dd2687b7474f7fba6f",
+  "descriptorBase64" : "CglVc2VyRXZlbnQSDgoGdXNlcklkGAEgASgJEg4KBmFjdGlvbhgCIAEoCRIRCgl0aW1lc3RhbXAYAyABKAk="
+}, {
+  "topic" : "user.create",
+  "protoMessageType" : "com.sougata.userprotos.UserRequest",
+  "descriptorSha256" : "2afc18fceea12fdd408bf7fc8b64814ff3b2d0d09bc7788b14b0483f8df25d9b",
+  "descriptorBase64" : "CgtVc2VyUmVxdWVzdBI7CgRib2R5GAEgAygLMi0uY29tLnNvdWdhdGEudXNlcnByb3Rvcy5Vc2VyUmVxdWVzdC5Cb2R5RW50cnkaKwoJQm9keUVudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAE="
+}, {
+  "topic" : "user.update",
+  "protoMessageType" : "com.sougata.userprotos.UserRequest",
+  "descriptorSha256" : "2afc18fceea12fdd408bf7fc8b64814ff3b2d0d09bc7788b14b0483f8df25d9b",
+  "descriptorBase64" : "CgtVc2VyUmVxdWVzdBI7CgRib2R5GAEgAygLMi0uY29tLnNvdWdhdGEudXNlcnByb3Rvcy5Vc2VyUmVxdWVzdC5Cb2R5RW50cnkaKwoJQm9keUVudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAE="
+}, {
+  "topic" : "user.activity",
+  "protoMessageType" : "com.sougata.userprotos.UserActivity",
+  "descriptorSha256" : "59c50badab77ebb6037be24d467522470277723bed3402bc0fe31abe5740a2fe",
+  "descriptorBase64" : "CgxVc2VyQWN0aXZpdHkSEQoJc2Vzc2lvbklkGAEgASgJEhQKDGFjdGl2aXR5VHlwZRgCIAEoCRITCgtwZXJmb3JtZWRBdBgDIAEoCQ=="
+}, {
+  "topic" : "user.response",
+  "protoMessageType" : "com.sougata.userprotos.UserResponse",
+  "descriptorSha256" : "497f7bf4c4b64a18278019511fc0402e314dbd4541fbbaef9cb3b521ba95ebfa",
+  "descriptorBase64" : "CgxVc2VyUmVzcG9uc2USEwoLcHJvY2Vzc29ySWQYASABKAkSPAoEYm9keRgCIAMoCzIuLmNvbS5zb3VnYXRhLnVzZXJwcm90b3MuVXNlclJlc3BvbnNlLkJvZHlFbnRyeRorCglCb2R5RW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIgASgJOgI4AQ=="
+} ]
